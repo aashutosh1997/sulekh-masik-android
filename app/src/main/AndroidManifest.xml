@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sulekhmasik.aashutosh.sulekhmasikpatrika"
+    android:versionCode="6"
+    android:versionName="2.1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sulekh_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name=".appHome"
+            android:label="सुलेख साहित्यिक मासिक">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".appLayout"/>
+        <activity android:name=".articleDisplay"/>
+
+        <activity android:name=".categoriesDisplay"/>
+        <activity android:name=".articlePage" />
+        <activity android:name="contactUs"/>
+        <activity android:name=".CollapsingLayout" />
+
+    </application>
+
+</manifest>

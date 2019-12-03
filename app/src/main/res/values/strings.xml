@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">सुलेख साहित्यिक मासिक</string>
+    <string name="title_activity_app_home">AppHome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+</resources>
